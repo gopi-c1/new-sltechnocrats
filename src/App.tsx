@@ -4,7 +4,7 @@ import Image from "./Image";
 import OurService from "./OurService";
 import Started from "./Started";
 import StateSelection from "./StateSelection"
-import AiAnimations from "./AiAnimations";
+import AiAnimations from "./AiAnimation";
 import ClientStories from "./ClientStories";
 import DigitalAgency from "./DigitalAgency";
 

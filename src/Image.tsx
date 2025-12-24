@@ -1,6 +1,6 @@
 function Image() {
   return (
-    <div className="w-full ml-0">
+    <div className="w-full ml-0 mt-28">
       <img src="https://i.ibb.co/zVY9tLwf/pic6.png" alt="" 
       className="w-full"/>
     </div>
