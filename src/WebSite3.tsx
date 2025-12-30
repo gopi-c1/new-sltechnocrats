@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import {useState } from "react";
 
 function WebSite2() {
   const [open1, setOpen1] = useState(false);
