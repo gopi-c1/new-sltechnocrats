@@ -1,6 +1,6 @@
 function DigitalAgency() {
   return (
-    <div className="w-full ">
+    <div className="w-full mb-20">
     <div className="text-gray-800 text-5xl text-center font-semibold px-10 py-20">
         Our range of digital agency services
     </div>

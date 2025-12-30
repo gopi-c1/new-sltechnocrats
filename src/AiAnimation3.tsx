@@ -1,32 +1,27 @@
 import { useState } from "react";
 
-function AiAnimation() {
+function AiAnimation3() {
   const cards = [
     {
-      title: "Discovery & Planning",
-      description: "We begin by understanding your business needs, goals, and target audience to craft  a strategic plan.",
+      title: "Expertise & Experience",
+      description: "Our team has deep industry knowledge and years of experience, ensuring tailored cloud solutions that meet your business needs.",
       image: "https://i.ibb.co/ZRP9HVDn/pic14.gif"
     },
     {
-      title: "Design & Prototyping",
-      description: "Our designers create wireframes and prototypes to visualize structure and user interface of your website.",
+      title: "Seamless Cloud Migration",
+      description: "We guarantee a smooth, secure migration to the cloud with minimal disruption to your operations.",
       image: "https://i.ibb.co/tP44yW8K/pic15.gif"
     },
     {
-      title: "Development & Implementation",
-      description: "Our developers turn designs into a functional website ensuring security, performance, and scalability .",
+      title: "Enhanced Security",
+      description: "We prioritize data security with advanced encryption and compliance with industry standards to protect your critical information.",
       image:"https://i.ibb.co/5h1NRTyd/pic16.giff"
     },
     {
-      title: "Testing & QA",
-      description: "We rigorously test every element of your website to ensure it meets quality standards for performance, security, and usability.",
+      title: "Scalable & Flexible Infrastructure",
+      description: "Our cloud slotions grow with your business, offering scalability and flexibility to meet changing demands.",
       image: "https://i.ibb.co/ZRP9HVDn/pic14.gif"
     },
-    {
-        title: "Launch & Ongoing Supper",
-        description: "After launch, we provide ongoing maintenance and support to keep your website up-to-date and running smothly.",
-        image: "https://i.ibb.co/tP44yW8K/pic15.gif"
-    }
   ];
 
   const [index, setIndex] = useState(0);
@@ -41,15 +36,18 @@ function AiAnimation() {
   };
 
   return (
-    <div className="w-full bg-gray-50 ">
+    <div className="w-full bg-[#0f1f1f] ">
+      <h3 className="text-teal-400 text-center text-4xl font-semibold pt-20 leading-14">
+        We're the best fit for your needs because we know your 
+        <br />
+        challenges and pain areas. This is Why We're 'Different.</h3>
       <div className="relative max-w-5xl mx-auto overflow-hidden">
 
         <button
           onClick={prev}
           className="absolute top-1/2 -translate-y-1/2 z-10
                      w-10 h-10 rounded-full bg-white shadow
-                     flex items-center justify-center text-xl"
-        >
+                     flex items-center justify-center text-xl">
           ❮
         </button>
 
@@ -57,20 +55,19 @@ function AiAnimation() {
           onClick={next}
           className="absolute right-0 top-1/2 -translate-y-1/2 z-10
                      w-10 h-10 rounded-full bg-white shadow
-                     flex items-center justify-center text-xl "
-        >
+                     flex items-center justify-center text-xl ml-10">
           ❯
         </button>
 
         <div
-          className="flex gap-10 transition-transform duration-500 ease-in-out py-36 ml-12"
+          className="flex gap-10 transition-transform duration-500 ease-in-out py-36 ml-10"
           style={{
             transform: `translateX(-${index * (100 / visibleCards)}%)`
           }}>
           {cards.map((card, i) => (
             <div
               key={i}
-              className="min-w-72 bg-white rounded-2xl p-8 shadow-md h-96"
+              className="min-w-72 bg-white rounded-2xl p-5 shadow-md h-96"
             >
                 <img 
                    src={card.image}
@@ -93,4 +90,4 @@ function AiAnimation() {
   );
 }
 
-export default AiAnimation
+export default AiAnimation3

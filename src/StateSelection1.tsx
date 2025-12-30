@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function StatsSelection() {
+function StatsSelection1() {
   const stats = [
     { value: 20, label: "Technologies worked", suffix: "+" },
     { value: 30, label: "Happy Clients", suffix: "+" },
@@ -34,7 +34,7 @@ export default function StatsSelection() {
 
   return (
     <section
-      className="relative bg-cover bg-center"
+      className="relative bg-cover bg-center mt-20"
       style={{
         backgroundImage:
           "url('https://sltechnocrats.net/_next/static/media/image.cde601d8.png')",
@@ -58,3 +58,5 @@ export default function StatsSelection() {
     </section>
   );
 }
+
+export default StatsSelection1

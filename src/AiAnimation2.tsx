@@ -1,32 +1,32 @@
 import { useState } from "react";
 
-function AiAnimation() {
+function AiAnimations2() {
   const cards = [
     {
-      title: "Discovery & Planning",
-      description: "We begin by understanding your business needs, goals, and target audience to craft  a strategic plan.",
+      title: "Deep Industry Expertise",
+      description: "We understand your challenges and tailor solutions to fit your needs.",
       image: "https://i.ibb.co/ZRP9HVDn/pic14.gif"
     },
     {
-      title: "Design & Prototyping",
-      description: "Our designers create wireframes and prototypes to visualize structure and user interface of your website.",
+      title: "Innovative AI Solutions",
+      description: "Harness the power of AI to drive efficiency and transform your business.",
       image: "https://i.ibb.co/tP44yW8K/pic15.gif"
     },
     {
-      title: "Development & Implementation",
-      description: "Our developers turn designs into a functional website ensuring security, performance, and scalability .",
+      title: "Customized Approach",
+      description: "We create bespoke solutions that align with your specific gaols.",
       image:"https://i.ibb.co/5h1NRTyd/pic16.giff"
     },
     {
-      title: "Testing & QA",
-      description: "We rigorously test every element of your website to ensure it meets quality standards for performance, security, and usability.",
-      image: "https://i.ibb.co/ZRP9HVDn/pic14.gif"
+      title: "Long-Term Success Focus",
+      description: "Our aim is to deliver rasults that keep your business ahead of the curve.",
+      image: "https://i.ibb.co/5h1NRTyd/pic16.giff"
     },
     {
-        title: "Launch & Ongoing Supper",
-        description: "After launch, we provide ongoing maintenance and support to keep your website up-to-date and running smothly.",
-        image: "https://i.ibb.co/tP44yW8K/pic15.gif"
-    }
+      title: "Seamless Integration",
+      description: "We ensure smooth implementation with minimal disruption to your operations.",
+      image: "https://i.ibb.co/ZRP9HVDn/pic14.gif"
+    },
   ];
 
   const [index, setIndex] = useState(0);
@@ -42,6 +42,10 @@ function AiAnimation() {
 
   return (
     <div className="w-full bg-gray-50 ">
+      <h3 className="text-black text-center text-4xl font-semibold pt-20 leading-14">
+        We're the best fit for your needs because we know your 
+        <br />
+        challenges and pain areas. This is Why We're 'Different.</h3>
       <div className="relative max-w-5xl mx-auto overflow-hidden">
 
         <button
@@ -70,7 +74,7 @@ function AiAnimation() {
           {cards.map((card, i) => (
             <div
               key={i}
-              className="min-w-72 bg-white rounded-2xl p-8 shadow-md h-96"
+              className="min-w-72 bg-white rounded-2xl p-5 shadow-md h-96"
             >
                 <img 
                    src={card.image}
@@ -93,4 +97,4 @@ function AiAnimation() {
   );
 }
 
-export default AiAnimation
+export default AiAnimations2
