@@ -83,9 +83,12 @@ const TopBar = () => {
             <div className="absolute top-full left-0 mt-2 w-56 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <ul className="py-2">
                 <li>
-                  <Link to="smaro" className="px-7 hover:bg-gray-100">
-                  Smaro
-                  </Link>
+                  <a href="https://sltechnocrats-main.vercel.app/"
+                  target="-blank"
+                  rel="noopener noreferrer"
+                  className="block px-7 py-2 hover:bg-gray-100">
+                    Smaro
+                  </a>
                 </li>
               </ul>
             </div>
