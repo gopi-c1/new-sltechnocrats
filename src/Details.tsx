@@ -88,7 +88,7 @@ function Details() {
           className="w-6 h-6 cursor-pointer"/>
       </a>
 
-      <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+      <a href="https://www.facebook.com/people/Smaro/61562958171431/" target="_blank" rel="noreferrer">
         <img
           src="https://i.ibb.co/WvwjPDYB/pic23.png"
           alt="Facebook"
@@ -102,7 +102,7 @@ function Details() {
           className="w-6 h-6 cursor-pointer"/>
       </a>
 
-      <a href="https://www.youtube.com" target="-blank" rel="noreferrer">
+      <a href="https://www.youtube.com/@Smaro90009" target="-blank" rel="noreferrer">
       <img src="https://i.ibb.co/hJbmP15m/pic26.png" 
       alt="youtube" 
       className="w-10 h-7 cursor-pointer -ml-0.5"/>
