@@ -44,23 +44,14 @@ function AiAnimation() {
     <div className="w-full bg-gray-50 ">
       <div className="relative max-w-5xl mx-auto overflow-hidden">
 
-        <button
-          onClick={prev}
-          className="absolute top-1/2 -translate-y-1/2 z-10
-                     w-10 h-10 rounded-full bg-white shadow
-                     flex items-center justify-center text-xl"
-        >
-          ❮
-        </button>
+      <button
+  onClick={prev}
+  className="absolute -left-2 top-1/2 -translate-y-1/2 
+             w-12 h-12 rounded-full !bg-white shadow 
+             flex items-center justify-center text-2xl text-black">
+  ❮
+</button>
 
-        <button
-          onClick={next}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10
-                     w-10 h-10 rounded-full bg-white shadow
-                     flex items-center justify-center text-xl "
-        >
-          ❯
-        </button>
 
         <div
           className="flex gap-10 transition-transform duration-500 ease-in-out py-36 ml-12"
@@ -87,6 +78,14 @@ function AiAnimation() {
             </div>
           ))}
         </div>
+
+        <button
+  onClick={next}
+  className="absolute -right-4 top-1/2 -translate-y-1/2 
+             w-12 h-12 rounded-full !bg-white shadow 
+             flex items-center justify-center text-2xl text-black">
+  ❯
+</button>
 
       </div>
     </div>

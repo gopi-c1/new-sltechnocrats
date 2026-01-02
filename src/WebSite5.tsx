@@ -21,9 +21,9 @@ function WebSite5() {
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden">
         <button
           onClick={() => setOpen1(!open1)}
-          className="w-full h-20 flex justify-between items-center bg-gray-100 px-6 py-5"
+          className="w-full h-20 flex justify-between items-center !bg-gray-100 px-6 py-5"
         >
-          <h4 className="text-xl font-semibold text-white ">
+          <h4 className="text-xl font-semibold text-black ">
             What is machine learning, and how can it benefit my business?
           </h4>
 
@@ -44,8 +44,8 @@ function WebSite5() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen2(!open2)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     What machine learning solutions does SL Technocrats offer?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -64,8 +64,8 @@ function WebSite5() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen3(!open3)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How can machine learning improve decision- making in my business?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -83,8 +83,8 @@ function WebSite5() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen4(!open4)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Can SL Technocrates help integrate machine learning models into my existing systems?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -102,8 +102,8 @@ function WebSite5() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen5(!open5)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                      What industries can benefits from machine learning services?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -121,8 +121,8 @@ function WebSite5() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen6(!open6)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How does SL Technocrats ensure the accuracy of machine learning models?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -139,8 +139,8 @@ function WebSite5() {
       </div>
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen7(!open7)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Is machine learning scalable for my business
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -158,8 +158,8 @@ function WebSite5() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setopen8(!open8)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How do i get starteed with machinw learning service feom SL Technocrats?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">

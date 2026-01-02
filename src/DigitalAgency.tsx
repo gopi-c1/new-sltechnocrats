@@ -39,7 +39,7 @@ function DigitalAgency() {
         <img src="https://i.ibb.co/DfRYnM2K/pic21.jpg" alt="" />
       </div>
       <h3 className="text-2xl font-semibold text-gray-900">
-        Website MArking & SEO Strategy
+        Website Marking & SEO Strategy
       </h3>
       <p className="text-gray-600 leading-relaxed">
         Our data analytics team is a blend of mathematicians, statisticians, and 

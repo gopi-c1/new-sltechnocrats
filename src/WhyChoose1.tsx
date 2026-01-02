@@ -58,7 +58,7 @@ function WhyChoose1() {
         .map((Service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center transition-all duration-300">
+              className="bg-white w-100 rounded-2xl shadow-lg p-7 flex flex-col items-center transition-all duration-300">
                 <img src={Service.image}
                 alt={Service.title}
                 className="w-full h-48 object-cover rounded-xl mb-5 "/>
@@ -70,13 +70,13 @@ function WhyChoose1() {
      <div className="flex justify-center gap-6">
         <button
           onClick={prevSlide}
-          className="w-12 h-12 rounded-full bg-white shadow flex items-center justify-center hover:bg-gray-200">
+          className="w-12 h-12 rounded-full !bg-white shadow flex items-center justify-center text-black">
           ‹
         </button>
 
         <button
           onClick={nextSlide}
-          className="w-12 h-12 rounded-full bg-white shadow flex items-center justify-center hover:bg-gray-200">
+          className="w-12 h-12 rounded-full !bg-white shadow flex items-center justify-center text-black">
            ›
         </button>
       </div>

@@ -118,7 +118,7 @@ function ContactUS() {
                 className="w-full border-b border-gray-400 outline-none py-2 text-black"
               ></textarea>
             </div>
-            <button className="bg-teal-600 w-80 ml-60">Send Message</button>
+            <button className="!bg-teal-600 w-80 ml-60">Send Message</button>
 
           </form>
         </div>

@@ -23,9 +23,9 @@ function WebSite2() {
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden">
         <button
           onClick={() => setOpen1(!open1)}
-          className="w-full h-20 flex justify-between items-center bg-gray-100 px-6 py-5"
+          className="w-full h-20 flex justify-between items-center !bg-gray-100 px-6 py-5"
         >
-          <h4 className="text-xl font-semibold text-white ">
+          <h4 className="text-xl font-semibold text-black ">
             What AI services does SL Technocrates offer? 
           </h4>
 
@@ -47,8 +47,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen2(!open2)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How can AI improve my business?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -67,8 +67,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen3(!open3)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     What industries can benefit from AI solutions?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -88,8 +88,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen4(!open4)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How does machine learning Work?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -108,8 +108,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen5(!open5)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                      What is Natural Language Processing (NLP)?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -128,8 +128,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen6(!open6)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Can AI help improve customer service?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -147,8 +147,8 @@ function WebSite2() {
       </div>
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen7(!open7)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Is AI safe foe my business data?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -167,8 +167,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setopen8(!open8)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How long does it take to implemet AI solutions?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -187,8 +187,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen9(!open9)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Do I need technical expertise to use AI?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -207,8 +207,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen10(!open10)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How can i get started with AI solutions for my business?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">

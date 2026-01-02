@@ -19,9 +19,9 @@ function WebSite2() {
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden">
         <button
           onClick={() => setOpen1(!open1)}
-          className="w-full h-20 flex justify-between items-center bg-gray-100 px-6 py-5"
+          className="w-full h-20 flex justify-between items-center !bg-gray-100 px-6 py-5"
         >
-          <h4 className="text-xl font-semibold text-white ">
+          <h4 className="text-xl font-semibold text-black ">
             What is cloud computing, and how can it benefit my business? 
           </h4>
 
@@ -41,8 +41,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen2(!open2)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     What cloud deploymentmodels do you offer?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -59,8 +59,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen3(!open3)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How does cloud migration work at SL Technocrats?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -78,8 +78,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen4(!open4)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     What cloud security measures does SL Technocrats provide?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -97,8 +97,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen5(!open5)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Can SL Technocrates help optimizemy cloud infrastructure?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -115,8 +115,8 @@ function WebSite2() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen6(!open6)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How caan i scale my cloud infrastructure with SL Technocrats?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">

@@ -19,19 +19,19 @@ function Details() {
           <p>Products : Smaro</p>
 
           <p>
-            <a href="tel:9154943409" className="hover:underline">
+            <a href="tel:9154943409" className=" !text-white hover:underline">
               Contact Us : 91549 43409, 90529 90009
             </a>
           </p>
 
-          <Link to="/privacy-policy" className="text-white hover:underline">
+          <Link to="/privacy-policy" className="!text-white hover:underline">
                Privacy Policy
           </Link>
 
           <h3 className="text-xl font-semibold mt-8">Support</h3>
 
          
-            <a href="tel:9154943409" className="hover:underline">
+            <a href="tel:9154943409" className=" !text-white hover:underline">
               📞 Call : 91549 43409, 90529 90009
             </a>
 
@@ -39,14 +39,14 @@ function Details() {
               href="https://wa.me/919154943409"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline ml-5">
+              className=" !text-white hover:underline ml-5">
               💬 chat
             </a>
             
             <a
               href="mailto:support@sltechnocrats.net"
               rel="noopener noreferrer"
-              className="hover:underline ml-5 relative z-50 cursor-pointer">
+              className=" !text-white hover:underline ml-5 relative z-50 cursor-pointer">
                ✉ Email
             </a>
          
@@ -64,7 +64,7 @@ function Details() {
               href="https://www.google.com/maps/search/?api=1&query=797/A+Road+No+36+CBI+Colony+Jubilee+Hills+Hyderabad+Telangana+500033" 
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline "
+              className=" !text-white hover:underline "
             >
               797/A, Road No.36, CBI cOlony, Jubilee Hills,Hyderabad, Telangana 500033
             </a>

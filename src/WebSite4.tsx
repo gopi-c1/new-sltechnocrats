@@ -21,9 +21,9 @@ function WebSite4() {
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden">
         <button
           onClick={() => setOpen1(!open1)}
-          className="w-full h-20 flex justify-between items-center bg-gray-100 px-6 py-5"
+          className="w-full h-20 flex justify-between items-center !bg-gray-100 px-6 py-5"
         >
-          <h4 className="text-xl font-semibold text-white ">
+          <h4 className="text-xl font-semibold text-black ">
             What is deep learning, and how can it benefit my business?
           </h4>
 
@@ -44,8 +44,8 @@ function WebSite4() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen2(!open2)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     What types of deep learning models do you create?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -63,8 +63,8 @@ function WebSite4() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen3(!open3)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How does deep learning improve customer experience?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -83,8 +83,8 @@ function WebSite4() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen4(!open4)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Can SL Technocrates help integrate deep learning into my existing systems?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -102,8 +102,8 @@ function WebSite4() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen5(!open5)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                      What industries can benefits from deep learing services?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -121,8 +121,8 @@ function WebSite4() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen6(!open6)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     Is deep learing scalable for my business needs?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -139,8 +139,8 @@ function WebSite4() {
       </div>
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setOpen7(!open7)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How security are the deep learning solutions you provide?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">
@@ -158,8 +158,8 @@ function WebSite4() {
 
       <div className="max-w-4xl mx-auto rounded-xl overflow-hidden mt-10">
         <button onClick={() => setopen8(!open8)}
-            className="w-full h-20 flex justify-between items-center bg-white px-6 py-5">
-                <h4 className="text-xl font-semibold text-white">
+            className="w-full h-20 flex justify-between items-center !bg-white px-6 py-5">
+                <h4 className="text-xl font-semibold text-black">
                     How can I get started with deep learning services at SL Technocrats?
                 </h4>
                 <div className="w-10 h-10 flex items-center justify-center rounded-full border-2 border-teal-600 text-teal-600 text-2xl font-bold">

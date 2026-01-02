@@ -100,7 +100,7 @@ const TopBar = () => {
         </nav>
 
         <Link to={"contact-us"}>
-        <button className="bg-teal-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-teal-600 transition">
+        <button className="!bg-teal-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-teal-600 transition">
           Contact Us
         </button>
         </Link>

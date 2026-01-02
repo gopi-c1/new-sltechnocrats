@@ -61,13 +61,13 @@ function OurService() {
      className="w-10 h-48 object-contain ml-28" />
      <h3 className="text-black text-4xl font-semibold -mt-28 ml-44 ">Our Service</h3>
 
-     <div className="grid md:grid-cols-3 gap-8 p-20">
+     <div className="grid md:grid-cols-3 gap-8 p-20 ">
         {Service
         .slice(currentIndex, currentIndex + cardsToShow )
         .map((Service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg p-7 flex flex-col items-center transition-all duration-300">
+              className="bg-white h-120 w-90 rounded-2xl shadow-lg p-7 flex flex-col items-center transition-all duration-300">
                 <img src={Service.image}
                 alt={Service.title}
                 className="w-full h-48 object-cover rounded-xl mb-5 "/>

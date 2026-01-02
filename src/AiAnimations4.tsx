@@ -46,16 +46,16 @@ function AiAnimation4() {
         <button
           onClick={prev}
           className="absolute top-1/2 -translate-y-1/2 z-10
-                     w-10 h-10 rounded-full bg-white shadow
-                     flex items-center justify-center text-xl">
+                     w-10 h-10 rounded-full !bg-white shadow
+                     flex items-center justify-center text-xl text-black">
           ❮
         </button>
 
         <button
           onClick={next}
           className="absolute right-0 top-1/2 -translate-y-1/2 z-10
-                     w-10 h-10 rounded-full bg-white shadow
-                     flex items-center justify-center text-xl ml-10">
+                     w-10 h-10 rounded-full !bg-white shadow
+                     flex items-center justify-center text-xl ml-10 text-black">
           ❯
         </button>
 
