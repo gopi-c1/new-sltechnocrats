@@ -56,7 +56,7 @@ function OurService() {
      };
 
   return (
-    <div className="w-full px-10 py-10 bg-gray-100 relative ">
+    <div className="w-full py-10 bg-gray-100 relative ">
      <img src="https://i.ibb.co/5p5V7NN/pic8.png" alt="logo" 
      className="w-10 h-48 object-contain ml-28" />
      <h3 className="text-black text-4xl font-semibold -mt-28 ml-44 ">Our Service</h3>
@@ -67,25 +67,25 @@ function OurService() {
         .map((Service, index) => (
             <div
               key={index}
-              className="bg-white h-120 w-90 rounded-2xl shadow-lg p-7 flex flex-col items-center transition-all duration-300">
+              className="bg-white h-120 w-100 rounded-2xl shadow-lg p-7 flex flex-col items-center transition-all duration-300">
                 <img src={Service.image}
                 alt={Service.title}
                 className="w-full h-48 object-cover rounded-xl mb-5 "/>
                 <h3 className="text-2xl font-semibold mb-3 text-black ">{Service.title}</h3>
-                <p className="text-gray-600 text-center">{Service.description}</p>
+                <p className="text-gray-600 text-xl text-left">{Service.description}</p>
             </div>
         ))}
      </div>
      <div className="flex justify-center gap-6">
         <button
           onClick={prevSlide}
-          className="w-12 h-12 rounded-full bg-white shadow flex items-center justify-center hover:bg-gray-200">
+          className="w-12 h-12 rounded-full !bg-white shadow flex items-center justify-center text-black">
           ‹
         </button>
 
         <button
           onClick={nextSlide}
-          className="w-12 h-12 rounded-full bg-white shadow flex items-center justify-center hover:bg-gray-200">
+          className="w-12 h-12 rounded-full !bg-white shadow flex items-center justify-center text-black">
            ›
         </button>
       </div>

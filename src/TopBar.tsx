@@ -17,13 +17,13 @@ const TopBar = () => {
 
           <Link
             to="/"
-            className="text-teal-500 border-b-2 border-teal-500 pb-1"
+            className="!text-teal-500 border-b-2 border-teal-500 pb-1"
           >
             Home
           </Link>
 
           <div className="relative group">
-            <div className="flex items-center gap-1 cursor-pointer hover:text-teal-500">
+            <div className="flex items-center gap-1 cursor-pointer !text-black hover:!text-teal-500">
               Our Service
               <span className="transition-transform group-hover:rotate-180">
                 ▾
@@ -35,38 +35,38 @@ const TopBar = () => {
                 <li>
                   <Link
                     to="/web-development"
-                    className="block px-7 py-4 hover:bg-gray-100 font-semibold"
+                    className="block px-7 py-4 hover:bg-gray-100 font-semibold !text-black hover:!text-teal-500"
                   >
                     Web Development
                   </Link>
                 </li>
 
                 <li >
-                <Link to="app-development" className="px-7 py-4 hover:bg-gray-100">
+                <Link to="app-development" className="px-7 py-4 hover:bg-gray-100 !text-black hover:!text-teal-500">
                   App Development
                 </Link>
                 </li>
 
                 <li className="pt-5">
-                  <Link to="artificial-intelligence" className="px-7 py-4 hover:bg-gray-100">
+                  <Link to="artificial-intelligence" className="px-7 py-4 hover:bg-gray-100 !text-black hover:!text-teal-500">
                   Artificial Intelligence
                   </Link>
                 </li>
 
                 <li className="pt-5">
-                  <Link to="cloud-computing"className="px-7 py-4 hover:bg-gray-100">
+                  <Link to="cloud-computing"className="px-7 py-4 hover:bg-gray-100 !text-black hover:!text-teal-500">
                   Cloud Computing
                   </Link>
                 </li>
 
                 <li className="pt-5">
-               <Link to="deep-learning" className="px-7 py-4 hover:bg-gray-100">
+               <Link to="deep-learning" className="px-7 py-4 hover:bg-gray-100 !text-black hover:!text-teal-500">
                   Deep Learning
                   </Link>
                 </li>
 
                 <li className="pt-5">
-                  <Link to="machine-learning" className="px-7  hover:bg-gray-100">
+                  <Link to="machine-learning" className="px-7  hover:bg-gray-100 !text-black hover:!text-teal-500">
                   Machine Learning
                   </Link>
                 </li>
@@ -86,7 +86,7 @@ const TopBar = () => {
                   <a href="https://sltechnocrats-main.vercel.app/"
                   target="-blank"
                   rel="noopener noreferrer"
-                  className="block px-7 py-2 hover:bg-gray-100">
+                  className="block px-7 py-2 hover:bg-gray-100 !text-black hover:!text-teal-500">
                     Smaro
                   </a>
                 </li>
@@ -94,7 +94,7 @@ const TopBar = () => {
             </div>
           </div>
 
-          <Link to="/about" className="hover:text-teal-500">
+          <Link to="/about" className="!text-teal-500 ">
             About
           </Link>
         </nav>
