@@ -17,7 +17,7 @@ const TopBar = () => {
 
           <Link
             to="/"
-            className="!text-teal-500 border-b-2 border-teal-500 pb-1"
+            className="!text-black hover:!text-teal-500"
           >
             Home
           </Link>
@@ -94,7 +94,7 @@ const TopBar = () => {
             </div>
           </div>
 
-          <Link to="/about" className="!text-teal-500 ">
+          <Link to="/about" className="!text-black hover:!text-teal-600">
             About
           </Link>
         </nav>
