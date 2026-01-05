@@ -77,7 +77,7 @@ const TopBar = () => {
           <div className="relative group">
             <div className="flex items-center gap-1 cursor-pointer hover:text-teal-500">
               Product
-              <span className="transition-transform grouo-hover:rotate-180"> ▾ </span>
+              <span className="transition-transform group-hover:rotate-180"> ▾ </span>
             </div>
 
             <div className="absolute top-full left-0 mt-2 w-56 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
