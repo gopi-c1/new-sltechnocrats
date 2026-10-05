@@ -184,11 +184,11 @@ function ContactUS() {
             </div>
 
             <button
-              type="submit"
-              className="bg-teal-600 text-white px-10 py-3 rounded-lg"
-            >
-              Send Message
-            </button>
+  type="submit"
+  className="!bg-teal-600 hover:!bg-teal-700 !text-white px-10 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg cursor-pointer transition-all duration-200"
+>
+  Send Message
+</button>
           </form>
         </div>
       </div>
